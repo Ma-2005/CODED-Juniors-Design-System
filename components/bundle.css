@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Vazirmatn:wght@500;700;800&display=swap");
+/* Helpers for previews and web materials in the camp-deck style. */
+:root{--slide-w:1920px;--slide-h:1080px;--fw-body:700;--fw-title:800;--gradient-partner-green:linear-gradient(135deg,#2A8A1C 0%,#43B02A 55%,#6CC447 100%);--gradient-winter:linear-gradient(160deg,#0D67C7 0%,#1E7BF0 100%);}
+.cj-keyword-1{color:var(--keyword-1)}.cj-keyword-2{color:var(--keyword-2)}.cj-keyword-3{color:var(--keyword-3)}.cj-keyword-4{color:var(--keyword-4)}
+.cj-card{background:var(--surface-card);border-radius:var(--radius-card);box-shadow:var(--shadow-card)}
+.cj-pill{border-radius:var(--radius-pill);font-weight:800;letter-spacing:1px}

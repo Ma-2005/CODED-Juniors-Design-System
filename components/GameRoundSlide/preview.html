@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head>
+<link rel="stylesheet" href="../../tokens/tokens.css"><meta charset="utf-8"><title>GameRoundSlide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap">
+<style>
+html,body{margin:0;background:#E9EAEC;overflow:hidden}
+.cj-scale{width:1920px;height:1080px;transform-origin:0 0}
+.cj-slide{position:relative;width:1920px;height:1080px;overflow:hidden}
+.cj-slide>section{position:absolute;left:0;top:0;width:1920px;height:1080px;box-sizing:border-box}
+.cj-slide *{margin:0;box-sizing:border-box}
+.cj-slide div{display:flex;flex-direction:column}
+</style></head>
+<body><div class="cj-scale" id="s"><div class="cj-slide">
+<section id="round" data-transition="fade" style="background:#F6F6F6;color:#1A1A1A;font-family:'Manrope', Arial, sans-serif;padding:0px">
+<img src="../../assets/Logos/juniors-logo-red.png" alt="CODED Juniors logo" style="position:absolute;right:72px;top:44px;width:203px;height:80px;object-fit:contain">
+<p style="position:absolute;left:120px;top:150px;font-size:30px;font-weight:800;color:#FFFFFF;background:#FB3A3B;padding:10px 28px;border-radius:999px;letter-spacing:1px">ROUND 1</p>
+<h2 style="position:absolute;left:120px;top:226px;width:1680px;font-size:84px;font-weight:800;line-height:1.08;letter-spacing:0.5px">[Is it <span style="color:#2474BA">This</span> or <span style="color:#FB3A3B">That</span>?]</h2>
+<div style="position:absolute;left:120px;top:350px;width:1680px;display:flex;flex-direction:row;justify-content:center;align-items:stretch;gap:80px">
+<div style="position:relative;width:700px;height:600px;background:#FFFFFF;border-radius:36px;box-shadow:0px 14px 36px rgba(20,36,63,0.10);overflow:hidden">
+<div style="width:700px;height:500px;background:#ECEEF2;display:flex;align-items:center;justify-content:center"><p style="font-size:36px;font-weight:700;color:#8A8F98;text-align:center;width:560px">[ Picture A ]</p></div>
+<p style="position:absolute;left:0px;top:518px;width:700px;font-size:40px;font-weight:800;text-align:center">[Caption A]</p>
+<p data-build-in="pop" style="position:absolute;left:400px;top:28px;width:270px;font-size:44px;font-weight:800;color:#FFFFFF;background:#2474BA;border-radius:999px;padding:10px 0px;text-align:center">[Answer]</p>
+</div>
+<div style="position:relative;width:700px;height:600px;background:#FFFFFF;border-radius:36px;box-shadow:0px 14px 36px rgba(20,36,63,0.10);overflow:hidden">
+<div style="width:700px;height:500px;background:#ECEEF2;display:flex;align-items:center;justify-content:center"><p style="font-size:36px;font-weight:700;color:#8A8F98;text-align:center;width:560px">[ Picture B ]</p></div>
+<p style="position:absolute;left:0px;top:518px;width:700px;font-size:40px;font-weight:800;text-align:center">[Caption B]</p>
+<p data-build-in="pop" style="position:absolute;left:400px;top:28px;width:270px;font-size:44px;font-weight:800;color:#FFFFFF;background:#FB3A3B;border-radius:999px;padding:10px 0px;text-align:center">[Answer]</p>
+</div>
+</div>
+<div style="position:absolute;left:120px;right:120px;bottom:70px;height:2px;background:#D5D8DD"></div>
+
+</section>
+
+</div></div>
+<script>
+function fit(){var k=Math.min(window.innerWidth/1920,1);var s=document.getElementById('s');s.style.transform='scale('+k+')';document.body.style.height=(1080*k)+'px';}
+fit();window.addEventListener('resize',fit);
+</script>
+</body></html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head>
+<link rel="stylesheet" href="../../tokens/tokens.css"><meta charset="utf-8"><title>StepDividerSlide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap">
+<style>
+html,body{margin:0;background:#E9EAEC;overflow:hidden}
+.cj-scale{width:1920px;height:1080px;transform-origin:0 0}
+.cj-slide{position:relative;width:1920px;height:1080px;overflow:hidden}
+.cj-slide>section{position:absolute;left:0;top:0;width:1920px;height:1080px;box-sizing:border-box}
+.cj-slide *{margin:0;box-sizing:border-box}
+.cj-slide div{display:flex;flex-direction:column}
+</style></head>
+<body><div class="cj-scale" id="s"><div class="cj-slide">
+<section id="step" data-transition="fade" data-section="Teach: step dividers, questions, definitions, tool reveals and AI rules" style="background:#FB3A3B;color:#FFFFFF;font-family:'Manrope', Arial, sans-serif;padding:0px">
+<img src="../../assets/Logos/juniors-logo-white.png" alt="CODED Juniors logo" style="position:absolute;right:72px;top:44px;width:203px;height:80px;object-fit:contain">
+<img src="../../assets/Decor/sparkle-white.png" alt="" style="position:absolute;left:300px;top:250px;width:90px;height:90px;object-fit:contain">
+<img src="../../assets/Decor/sparkle-white.png" alt="" style="position:absolute;left:1540px;top:720px;width:70px;height:70px;object-fit:contain">
+<img src="../../assets/Decor/star-yellow-3d.png" alt="" style="position:absolute;left:1500px;top:260px;width:150px;height:144px;object-fit:contain;transform:rotate(12deg)">
+<div style="position:absolute;left:0px;top:0px;width:1920px;height:1080px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:24px">
+<h2 style="font-size:180px;font-weight:800;line-height:1.0;letter-spacing:-1px;color:#FFD15C;text-align:center">Step 1</h2>
+<h2 style="font-size:180px;font-weight:800;line-height:1.02;letter-spacing:-1px;color:#FFFFFF;text-align:center">[Designing!]</h2>
+</div>
+<div style="position:absolute;left:120px;right:120px;bottom:70px;height:2px;background:rgba(255,255,255,0.45)"></div>
+
+</section>
+
+</div></div>
+<script>
+function fit(){var k=Math.min(window.innerWidth/1920,1);var s=document.getElementById('s');s.style.transform='scale('+k+')';document.body.style.height=(1080*k)+'px';}
+fit();window.addEventListener('resize',fit);
+</script>
+</body></html>

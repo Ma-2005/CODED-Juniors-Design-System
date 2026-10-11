@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"><head>
+<link rel="stylesheet" href="../../tokens/tokens.css"><meta charset="utf-8"><title>FourRulesSlide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap">
+<style>
+html,body{margin:0;background:#E9EAEC;overflow:hidden}
+.cj-scale{width:1920px;height:1080px;transform-origin:0 0}
+.cj-slide{position:relative;width:1920px;height:1080px;overflow:hidden}
+.cj-slide>section{position:absolute;left:0;top:0;width:1920px;height:1080px;box-sizing:border-box}
+.cj-slide *{margin:0;box-sizing:border-box}
+.cj-slide div{display:flex;flex-direction:column}
+</style></head>
+<body><div class="cj-scale" id="s"><div class="cj-slide">
+<section id="rules" data-transition="fade" style="background:#F6F6F6;color:#1A1A1A;font-family:'Manrope', Arial, sans-serif;padding:0px">
+<img src="../../assets/Logos/juniors-logo-red.png" alt="CODED Juniors logo" style="position:absolute;right:72px;top:44px;width:203px;height:80px;object-fit:contain">
+<p style="position:absolute;left:120px;top:150px;font-size:30px;font-weight:800;color:#FFFFFF;background:#FB3A3B;padding:10px 28px;border-radius:999px;letter-spacing:1px">[SAFETY]</p>
+<h2 style="position:absolute;left:120px;top:226px;width:1680px;font-size:84px;font-weight:800;line-height:1.08;letter-spacing:0.5px">[Topic] <span style="color:#FB3A3B">Rules</span>!</h2>
+<div style="position:absolute;left:120px;top:360px;width:1680px;display:flex;flex-direction:row;justify-content:center;align-items:stretch;gap:40px">
+<div style="width:380px;background:#FFFFFF;border-radius:32px;padding:32px;display:flex;flex-direction:column;align-items:center;gap:22px;box-shadow:0px 14px 36px rgba(20,36,63,0.10)">
+<img src="../../assets/Icons3D/icon-cyber-shield.png" alt="" style="width:190px;height:190px;object-fit:contain">
+<p style="font-size:48px;font-weight:800;line-height:1.1;color:#FB3A3B;text-align:center">[Rule 1]</p>
+<p style="font-size:38px;font-weight:700;line-height:1.25;color:#5B6170;text-align:center">[Why, in a few words]</p>
+</div>
+<div style="width:380px;background:#FFFFFF;border-radius:32px;padding:32px;display:flex;flex-direction:column;align-items:center;gap:22px;box-shadow:0px 14px 36px rgba(20,36,63,0.10)">
+<img src="../../assets/Icons3D/icon-finger-one.png" alt="" style="width:190px;height:190px;object-fit:contain">
+<p style="font-size:48px;font-weight:800;line-height:1.1;color:#E8890C;text-align:center">[Rule 2]</p>
+<p style="font-size:38px;font-weight:700;line-height:1.25;color:#5B6170;text-align:center">[Why, in a few words]</p>
+</div>
+<div style="width:380px;background:#FFFFFF;border-radius:32px;padding:32px;display:flex;flex-direction:column;align-items:center;gap:22px;box-shadow:0px 14px 36px rgba(20,36,63,0.10)">
+<img src="../../assets/Icons3D/icon-lightning.png" alt="" style="width:190px;height:190px;object-fit:contain">
+<p style="font-size:48px;font-weight:800;line-height:1.1;color:#2474BA;text-align:center">[Rule 3]</p>
+<p style="font-size:38px;font-weight:700;line-height:1.25;color:#5B6170;text-align:center">[Why, in a few words]</p>
+</div>
+<div style="width:380px;background:#FFFFFF;border-radius:32px;padding:32px;display:flex;flex-direction:column;align-items:center;gap:22px;box-shadow:0px 14px 36px rgba(20,36,63,0.10)">
+<img src="../../assets/Icons3D/icon-check-cross.png" alt="" style="width:190px;height:190px;object-fit:contain">
+<p style="font-size:48px;font-weight:800;line-height:1.1;color:#16A34A;text-align:center">[Rule 4]</p>
+<p style="font-size:38px;font-weight:700;line-height:1.25;color:#5B6170;text-align:center">[Why, in a few words]</p>
+</div>
+</div>
+<div style="position:absolute;left:120px;right:120px;bottom:70px;height:2px;background:#D5D8DD"></div>
+
+</section>
+
+</div></div>
+<script>
+function fit(){var k=Math.min(window.innerWidth/1920,1);var s=document.getElementById('s');s.style.transform='scale('+k+')';document.body.style.height=(1080*k)+'px';}
+fit();window.addEventListener('resize',fit);
+</script>
+</body></html>

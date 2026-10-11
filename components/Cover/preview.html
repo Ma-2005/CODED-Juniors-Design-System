@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<meta charset="utf-8">
+<title>CODED Juniors</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--content-white); color:var(--ink); font-family:var(--font-display); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .red { fill:var(--juniors-red); }
+  .blue { fill:var(--keyword-blue); }
+  .amber { fill:var(--keyword-amber); }
+  .yellow { fill:var(--yellow-on-red); }
+  .purple { fill:var(--keyword-purple); }
+  .white { fill:var(--card-white); }
+  .r-card { rx:var(--radius-card); }
+  .r-image { rx:var(--radius-image); }
+  .r-tile { rx:var(--radius-tile); }
+  .words { position:absolute; left:32px; bottom:28px; max-width:440px; }
+  .name { margin:0; font-family:var(--font-display); font-size:96px; line-height:.95; font-weight:800; letter-spacing:-1px; color:var(--ink); }
+  .tag { margin:12px 0 0 2px; font-size:14px; line-height:20px; font-weight:600; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      juniors-red 232×320 slab bled off the top (the hero field) · keyword-blue 136×112 · keyword-amber 96×96 · keyword-purple 64×64 accent, the keyword colours in their sentence order
+  arrangement one tall red hero slab with tilted keyword-colour satellites, like a red title slide with coloured words and stickers around it; tilts -2°, +2°, +6°, -12° (tilt tokens)
+  pattern     a literal motif: the ✦ four-point spark that bullets every Juniors sticker and sits beside Codey on hero slides, five of them in white and yellow-on-red
+  scales      radius-card slab, radius-image and radius-tile blocks; insets in 8px steps
+-->
+<rect class="red r-card" x="24" y="-32" width="232" height="320"/>
+<rect class="blue r-image" x="292" y="24" width="136" height="112" transform="rotate(-2 360 80)"/>
+<rect class="amber r-tile" x="420" y="128" width="96" height="96" transform="rotate(6 468 176)"/>
+<rect class="purple r-tile" x="300" y="184" width="64" height="64" transform="rotate(-12 332 216)"/>
+<path class="white" d="M140 56 Q140 104 188 104 Q140 104 140 152 Q140 104 92 104 Q140 104 140 56 Z"/>
+<path class="yellow" d="M76 184 Q76 202 94 202 Q76 202 76 220 Q76 202 58 202 Q76 202 76 184 Z"/>
+<path class="white" d="M206 196 Q206 216 226 216 Q206 216 206 236 Q206 216 186 216 Q206 216 206 196 Z"/>
+<path class="white" d="M360 60 Q360 76 376 76 Q360 76 360 92 Q360 76 344 76 Q360 76 360 60 Z"/>
+<path class="yellow" d="M452 40 Q452 54 466 54 Q452 54 452 68 Q452 54 438 54 Q452 54 452 40 Z"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">CODED<br>Juniors</h1>
+<p class="tag">Juniors red, Manrope in Title Case, coloured keywords, Codey and 3D icons.</p>
+</div>
+</div>
+</body>
+</html>

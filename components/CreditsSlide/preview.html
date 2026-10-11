@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head>
+<link rel="stylesheet" href="../../tokens/tokens.css"><meta charset="utf-8"><title>CreditsSlide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap">
+<style>
+html,body{margin:0;background:#E9EAEC;overflow:hidden}
+.cj-scale{width:1920px;height:1080px;transform-origin:0 0}
+.cj-slide{position:relative;width:1920px;height:1080px;overflow:hidden}
+.cj-slide>section{position:absolute;left:0;top:0;width:1920px;height:1080px;box-sizing:border-box}
+.cj-slide *{margin:0;box-sizing:border-box}
+.cj-slide div{display:flex;flex-direction:column}
+</style></head>
+<body><div class="cj-scale" id="s"><div class="cj-slide">
+<section id="credits" data-transition="fade" style="background:#F6F6F6;color:#1A1A1A;font-family:'Manrope', Arial, sans-serif;padding:0px">
+<div style="position:absolute;left:0px;top:0px;width:845px;height:1080px;background:#FB3A3B"></div>
+<img src="../../assets/Decor/sparkle-white.png" alt="" style="position:absolute;left:84px;top:96px;width:60px;height:60px;object-fit:contain">
+<img src="../../assets/Decor/sparkle-white.png" alt="" style="position:absolute;left:705px;top:900px;width:48px;height:48px;object-fit:contain">
+<div style="position:absolute;left:0px;top:0px;width:845px;height:1080px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:56px">
+<h2 style="font-size:120px;font-weight:800;line-height:1.08;letter-spacing:0.5px;color:#FFFFFF;text-align:center">[Tool]<br><span style="color:#FFD15C">Credits!</span></h2>
+<img src="../../assets/Icons3D/icon-treasure-chest.png" alt="" style="width:320px;height:320px;object-fit:contain">
+</div>
+<img src="../../assets/Logos/juniors-logo-red.png" alt="CODED Juniors logo" style="position:absolute;right:72px;top:44px;width:203px;height:80px;object-fit:contain">
+<div style="position:absolute;left:965px;top:0px;width:835px;height:1080px;display:flex;flex-direction:column;justify-content:center;align-items:start;gap:44px">
+<h2 style="font-size:86px;font-weight:800;line-height:1.22;letter-spacing:0.5px;color:#1A1A1A">Credits are like <span style="color:#E8890C">Coins</span>! Careful not to <span style="color:#FB3A3B">OVER</span> use them.</h2>
+<p style="font-size:44px;font-weight:800;line-height:1.1;color:#FFFFFF;background:#FB3A3B;padding:18px 44px;border-radius:999px">[1 try + 1 retry only]</p>
+</div>
+<div style="position:absolute;left:965px;right:120px;bottom:70px;height:2px;background:#D5D8DD"></div>
+
+</section>
+
+</div></div>
+<script>
+function fit(){var k=Math.min(window.innerWidth/1920,1);var s=document.getElementById('s');s.style.transform='scale('+k+')';document.body.style.height=(1080*k)+'px';}
+fit();window.addEventListener('resize',fit);
+</script>
+</body></html>

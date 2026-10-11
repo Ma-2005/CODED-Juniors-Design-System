@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head>
+<link rel="stylesheet" href="../../tokens/tokens.css"><meta charset="utf-8"><title>BreakTimeSlide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap">
+<style>
+html,body{margin:0;background:#E9EAEC;overflow:hidden}
+.cj-scale{width:1920px;height:1080px;transform-origin:0 0}
+.cj-slide{position:relative;width:1920px;height:1080px;overflow:hidden}
+.cj-slide>section{position:absolute;left:0;top:0;width:1920px;height:1080px;box-sizing:border-box}
+.cj-slide *{margin:0;box-sizing:border-box}
+.cj-slide div{display:flex;flex-direction:column}
+</style></head>
+<body><div class="cj-scale" id="s"><div class="cj-slide">
+<section id="break" data-transition="fade" style="background:#FB3A3B;color:#FFFFFF;font-family:'Manrope', Arial, sans-serif;padding:0px">
+<img src="../../assets/Logos/juniors-logo-white.png" alt="CODED Juniors logo" style="position:absolute;right:72px;top:44px;width:203px;height:80px;object-fit:contain">
+<div style="position:absolute;left:120px;top:0px;width:960px;height:1080px;display:flex;flex-direction:column;justify-content:center;align-items:start;gap:32px">
+<h2 style="font-size:170px;font-weight:800;line-height:1.0;letter-spacing:-1px;color:#FFFFFF"><span style="color:#DCD3FF">BREAK</span><br>Time!</h2>
+<p style="font-size:56px;font-weight:800;line-height:1.2;color:#FFD15C">Let's Relax and Continue Later!</p>
+<p style="font-size:44px;font-weight:700;line-height:1.3;color:#FFFFFF">[Back in __ minutes]</p>
+</div>
+<img src="../../assets/Mascot/codey-lemonade-break.png" alt="Codey with sunglasses and lemonade" style="position:absolute;left:1190px;top:200px;width:600px;height:671px;object-fit:contain">
+<img src="../../assets/Decor/cloud-white-3d.png" alt="" style="position:absolute;left:1560px;top:720px;width:270px;height:180px;object-fit:contain">
+<div style="position:absolute;left:120px;right:120px;bottom:70px;height:2px;background:rgba(255,255,255,0.45)"></div>
+
+</section>
+
+</div></div>
+<script>
+function fit(){var k=Math.min(window.innerWidth/1920,1);var s=document.getElementById('s');s.style.transform='scale('+k+')';document.body.style.height=(1080*k)+'px';}
+fit();window.addEventListener('resize',fit);
+</script>
+</body></html>

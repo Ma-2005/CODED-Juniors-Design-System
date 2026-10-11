@@ -1,0 +1,93 @@
+/* CODED Juniors design system tokens, generated from tokens.json */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Vazirmatn:wght@500;700;800&display=swap");
+:root {
+  --juniors-red: #FB3A3B;
+  --juniors-red-deep: #C92A2B;
+  --juniors-red-tint: #FFE7E7;
+  --keyword-blue: #2474BA;
+  --keyword-amber: #E8890C;
+  --keyword-purple: #7C3AED;
+  --success-green: #16A34A;
+  --yellow-on-red: #FFD15C;
+  --lavender-on-red: #DCD3FF;
+  --content-white: #F6F6F6;
+  --card-white: #FFFFFF;
+  --placeholder-grey: #ECEEF2;
+  --hairline: #D5D8DD;
+  --dashed-frame: #C9CDD4;
+  --ink: #1A1A1A;
+  --ink-soft: #4B5563;
+  --ink-muted: #5B6170;
+  --ink-faint: #8A8F98;
+  --screen-frame: #15171C;
+  --rule-on-red: rgba(255,255,255,0.45);
+  --glow-on-red: rgba(255,255,255,0.30);
+  --girls-pink: #FFC6F3;
+  --girls-coral: #FD7373;
+  --winter-blue: #0D67C7;
+  --partner-green: #43B02A;
+  --boubyan-teal: #26A69A;
+  --brandguide-red: #FF3E3E;
+  --brandguide-navy: #14243F;
+  --brandguide-blue: #0161D4;
+  --brandguide-yellow: #FFCC49;
+  --surface-hero: var(--juniors-red);
+  --surface-content: var(--content-white);
+  --surface-card: var(--card-white);
+  --text-heading: var(--ink);
+  --text-on-hero: var(--card-white);
+  --text-accent-on-hero: var(--yellow-on-red);
+  --keyword-1: var(--juniors-red);
+  --keyword-2: var(--keyword-blue);
+  --keyword-3: var(--keyword-amber);
+  --keyword-4: var(--keyword-purple);
+  --slide-margin: 120px;
+  --slide-heading-top: 150px;
+  --slide-heading-under-pill: 226px;
+  --slide-rule-bottom: 70px;
+  --logo-inset-x: 72px;
+  --logo-inset-y: 52px;
+  --split-panel: 845px;
+  --space-card-gap: 40px;
+  --space-card-pad: 32px;
+  --space-stack: 44px;
+  --space-pill-x: 28px;
+  --radius-tile: 18px;
+  --radius-image: 24px;
+  --radius-frame: 28px;
+  --radius-card: 32px;
+  --radius-card-lg: 36px;
+  --radius-hero-image: 40px;
+  --radius-pill: 999px;
+  --shadow-card: 0px 14px 36px rgba(20,36,63,0.10);
+  --shadow-tile-on-red: 0px 14px 30px rgba(0,0,0,0.18);
+  --shadow-pill-on-red: 0px 16px 36px rgba(0,0,0,0.25);
+  --border-rule: 2px;
+  --border-dashed: 4px;
+  --tilt-tile: 2deg;
+  --tilt-sticker: 6deg;
+  --tilt-star: 12deg;
+  --font-display: "Manrope", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Manrope", "Helvetica Neue", Arial, sans-serif;
+  --font-arabic: "Vazirmatn", "Noto Sans Arabic", sans-serif;
+  --font-brand: "CODED_TYPE", "Neufile Grotesk", "Manrope", Arial, sans-serif;
+}
+.slide-how { font-family: var(--font-display); font-size: 220px; line-height: 1.08; font-weight: 800; letter-spacing: -1px; }
+.slide-divider { font-family: var(--font-display); font-size: 180px; line-height: 1; font-weight: 800; letter-spacing: -1px; }
+.slide-hero { font-family: var(--font-display); font-size: 150px; line-height: 1.02; font-weight: 800; letter-spacing: -1px; }
+.slide-statement { font-family: var(--font-display); font-size: 120px; line-height: 1.06; font-weight: 800; }
+.slide-definition { font-family: var(--font-display); font-size: 84px; line-height: 1.22; font-weight: 800; }
+.slide-heading { font-family: var(--font-display); font-size: 84px; line-height: 1.08; font-weight: 800; letter-spacing: 0.5px; }
+.slide-subtitle { font-family: var(--font-display); font-size: 64px; line-height: 1.2; font-weight: 800; }
+.slide-list { font-family: var(--font-display); font-size: 54px; line-height: 1.2; font-weight: 800; }
+.slide-body { font-family: var(--font-display); font-size: 48px; line-height: 1.25; font-weight: 700; }
+.slide-card { font-family: var(--font-display); font-size: 40px; line-height: 1.25; font-weight: 700; }
+.slide-pill { font-family: var(--font-display); font-size: 34px; line-height: 1.1; font-weight: 800; letter-spacing: 1px; }
+.slide-min { font-family: var(--font-display); font-size: 30px; line-height: 1.3; font-weight: 700; }
+.doc-title { font-family: var(--font-body); font-size: 48px; line-height: 1.1; font-weight: 800; }
+.doc-heading { font-family: var(--font-body); font-size: 28px; line-height: 1.2; font-weight: 800; }
+.doc-body { font-family: var(--font-body); font-size: 17px; line-height: 1.55; font-weight: 500; }
+.doc-label { font-family: var(--font-body); font-size: 13px; line-height: 1.3; font-weight: 800; letter-spacing: 1px; }
+.arabic-display { font-family: var(--font-arabic); font-size: 72px; line-height: 1.3; font-weight: 800; }
+.arabic-body { font-family: var(--font-arabic); font-size: 18px; line-height: 1.7; font-weight: 500; }
+.brand-display { font-family: var(--font-brand); font-size: 88px; line-height: 1.02; font-weight: 700; }
